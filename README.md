@@ -93,17 +93,6 @@ bfm_final_img = bfm_feature_matcher.feature_matching()
             Apply SIFT algorithm to extract key points and descriptors from the input images,
             and then uses FLANN algorithm to find matches between the descriptors.
             Finally, it draws the good matches on the images and returns the result.
-
-## **SIFTFLANNMatcher**
-    This class performs feature matching using SIFT and FLANN algorithms.
-
-    Methods:
-
-        feature_matching() -> numpy.ndarray
-            Perform feature matching using SIFT and FLANN algorithms.
-            Apply SIFT algorithm to extract key points and descriptors from the input images,
-            and then uses FLANN algorithm to find matches between the descriptors.
-            Finally, it draws the good matches on the images and returns the result.
 ## SIFTBFMMatcher:
     This class performs feature matching using SIFT and Brute-Force Matcher algorithms.
 
