@@ -16,11 +16,11 @@ This project is a Python implementation of the SIFT and ORB feature detection al
 
 To use this project, you will need to have Python and the OpenCV library installed. Simply clone the repository and run the Python script(s) provided. The source code is organized into three main files:
 
- [`SIFT_FLANN`](.\SIFT_FeatureMatcher\SIFT_FLANN.py): Demonstrates the usage of the SIFT algorithm with the FLANN matching algorithm.
+ - [`SIFT_FLANN`](.\SIFT_FeatureMatcher\SIFT_FLANN.py): Demonstrates the usage of the SIFT algorithm with the FLANN matching algorithm.
 
- [`ORB_BFM`](.\ORB_FeatureMatcher\ORB_BFM.py): Demonstrates the usage of the ORB algorithm with the BFMatching algorithm.
+ - [`ORB_BFM`](.\ORB_FeatureMatcher\ORB_BFM.py): Demonstrates the usage of the ORB algorithm with the BFMatching algorithm.
 
- [`SIFT_BFM.py`](.\SIFT_FeatureMatcher\SIFT_BFM.py): Demonstrates the usage of the SIFT algorithm with the BFMatching algorithm.
+- [`SIFT_BFM.py`](.\SIFT_FeatureMatcher\SIFT_BFM.py): Demonstrates the usage of the SIFT algorithm with the BFMatching algorithm.
 ---
 ## Code Example
 
